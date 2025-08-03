@@ -59,6 +59,7 @@ Create a personalized learning pathway that:
    - Target role requirements
    - Identified skill gaps
    - Recommended learning pathway with specific courses (from the 5+ sites visited)
+    - include links to courses
    - Alternative options
    - Timeline and milestones
    - Next steps
@@ -67,7 +68,7 @@ Create a personalized learning pathway that:
 
 3. Execute git operations:
    ```bash
-   git add marketing_*.md
+   git add *.md
    git commit -m "Add skills pathway recommendations for [current date]"
    git push origin main
    ```
