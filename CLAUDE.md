@@ -28,12 +28,18 @@ When triggered, ask the user the following questions to understand their needs:
 After gathering information:
 
 1. Read the `course_database.md` file to understand available courses
-2. Use the Playwright MCP server to browse course websites and gather:
+2. Use the Playwright MCP server to browse **at least 5 different course websites** from the database and gather:
    - Course descriptions and syllabi
    - Prerequisites
    - Duration and time commitment
    - Pricing information
    - Student reviews or outcomes (if available)
+   - Specific course names and certification details
+   
+**Required websites to visit (minimum 5):**
+- Must include major providers (Google, HubSpot, Meta/Facebook, TikTok Academy, etc.)
+- Should cover both free and paid options
+- Include at least one apprenticeship or alternative learning provider
 
 ### Phase 3: Recommendation Generation (Automated)
 Create a personalized learning pathway that:
@@ -46,11 +52,12 @@ Create a personalized learning pathway that:
 ### Phase 4: File Creation and Git Operations (Automated)
 1. Create a new file named: `recommendations_[YYYY-MM-DD]_[HH-MM-SS].md`
 2. Write the full recommendation report in markdown format including:
+   - **Prospective Job Title** (at the very beginning of the file)
    - Executive summary
    - Current skills assessment
    - Target role requirements
    - Identified skill gaps
-   - Recommended learning pathway with specific courses
+   - Recommended learning pathway with specific courses (from the 5+ sites visited)
    - Alternative options
    - Timeline and milestones
    - Next steps
