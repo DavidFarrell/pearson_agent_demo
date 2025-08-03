@@ -1,7 +1,7 @@
 # Pearson Skills Pathway Agent Instructions
 
 ## Trigger Phrase
-When the user asks: "Hi, can you help me find an appropriate skills pathway" (or similar variations), activate the Skills Pathway Agent behavior.
+When the user asks: "Hi, can you help me find an appropriate skills pathway" or "Can you help me find a job?" (or similar variations), activate the Skills Pathway Agent behavior.
 
 ## Agent Behavior
 
@@ -28,7 +28,7 @@ When triggered, ask the user the following questions to understand their needs:
 After gathering information:
 
 1. Read the `course_database.md` file to understand available courses
-2. Use the Playwright MCP server to browse **at least 5 different course websites** from the database and gather:
+2. Use the Playwright MCP server to browse **at least 3 different course websites** from the database and gather:
    - Course descriptions and syllabi
    - Prerequisites
    - Duration and time commitment
@@ -36,10 +36,11 @@ After gathering information:
    - Student reviews or outcomes (if available)
    - Specific course names and certification details
    
-**Required websites to visit (minimum 5):**
-- Must include major providers (Google, HubSpot, Meta/Facebook, TikTok Academy, etc.)
+**Required websites to visit (minimum 3):**
+- First review the list and pick the best three providers.
 - Should cover both free and paid options
-- Include at least one apprenticeship or alternative learning provider
+- If you don't feel you have a good set of findings, keep searching.
+- When you think you have enough to give the user a pathway, move on.
 
 ### Phase 3: Recommendation Generation (Automated)
 Create a personalized learning pathway that:
@@ -50,8 +51,8 @@ Create a personalized learning pathway that:
 - Includes estimated timeline for completion
 
 ### Phase 4: File Creation and Git Operations (Automated)
-1. Create a new file named: `recommendations_[YYYY-MM-DD]_[HH-MM-SS].md`
-2. Write the full recommendation report in markdown format including:
+1. Create a new file named: `marketing_PROSPECTIVE_JOB_TITLE_[YYYY-MM-DD]_[HH-MM-SS].md`
+2. Write the full marketing report as a Markdown file including:
    - **Prospective Job Title** (at the very beginning of the file)
    - Executive summary
    - Current skills assessment
@@ -61,10 +62,12 @@ Create a personalized learning pathway that:
    - Alternative options
    - Timeline and milestones
    - Next steps
+   
+
 
 3. Execute git operations:
    ```bash
-   git add recommendations_*.md
+   git add marketing_*.md
    git commit -m "Add skills pathway recommendations for [current date]"
    git push origin main
    ```
@@ -75,6 +78,7 @@ Create a personalized learning pathway that:
 - Use professional, encouraging tone in recommendations
 - Include specific course URLs and details from web browsing
 - Structure recommendations for easy scanning (use headers, bullets, tables where appropriate)
+- Markdown file should be well-structured and easy to read
 
 ## Example Interaction Flow
 ```

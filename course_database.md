@@ -2,4 +2,14 @@ https://www.deeplearning.ai/courses/
 https://www.coursera.org/courses?query=artificial%20intelligence
 https://huggingface.co/learn
 https://learn.microsoft.com/en-us/training/browse/
-https://grow.google/intl/uk/
+https://grow.google/certificates/digital-marketing-ecommerce/
+https://www.coursera.org/google-certificates/digital-marketing-certificate
+https://www.facebook.com/business/learn
+https://www.tiktok.com/business/en/academy
+https://academy.hubspot.com/
+https://education.hootsuite.com/
+https://digitalmarketinginstitute.com/
+https://www.linkedin.com/learning/
+https://www.udemy.com/
+https://www.multiverse.io/en-US/programs/digital-marketing
+https://influencermarketinghub.com/influencer-marketing-course/
