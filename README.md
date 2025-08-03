@@ -23,7 +23,7 @@ To trigger the skills pathway agent, ask: "Hi, can you help me find an appropria
 For demonstration purposes, you can run Claude with autonomous permissions to avoid confirmation prompts:
 
 ```bash
-claude --dangerously-allow-all-system-prompt-instructions
+claude --dangerously-skip-permissions
 ```
 
 This enables:
